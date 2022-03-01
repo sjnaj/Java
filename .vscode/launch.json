@@ -1,0 +1,268 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "inputs": [
+        {
+                "id": "Args",
+                "type": "promptString",
+                "description": "Input args passing by cli: ",
+        }
+    ],
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch TestObjectStream",
+            "request": "launch",
+            "mainClass": "TestObjectStream",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch CopyFile",
+            "request": "launch",
+            "mainClass": "CopyFile",
+            "projectName": "Java_443aea1b",
+            "args": "${input:Args}"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestDataStream",
+            "request": "launch",
+            "mainClass": "TestDataStream",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileStream",
+            "request": "launch",
+            "mainClass": "FileStream",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestByteArrayStream",
+            "request": "launch",
+            "mainClass": "TestByteArrayStream",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestFileStream",
+            "request": "launch",
+            "mainClass": "TestFileStream",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReadFileFromUrl",
+            "request": "launch",
+            "mainClass": "ReadFileFromUrl",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReadData",
+            "request": "launch",
+            "mainClass": "ReadData",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch WriteData",
+            "request": "launch",
+            "mainClass": "WriteData",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch DirTest",
+            "request": "launch",
+            "mainClass": "DirTest",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileTest",
+            "request": "launch",
+            "mainClass": "FileTest",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestMyException",
+            "request": "launch",
+            "mainClass": "TestMyException",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultipleException",
+            "request": "launch",
+            "mainClass": "MultipleException",
+            "projectName": "Java_443aea1b",
+            "args": "${input:Args}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidateUserName",
+            "request": "launch",
+            "mainClass": "ValidateUserName",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch AutoCloseTest",
+            "request": "launch",
+            "mainClass": "AutoCloseTest",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch LocalInnerClass",
+            "request": "launch",
+            "mainClass": "LocalInnerClass",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch DistinctNumbers",
+            "request": "launch",
+            "mainClass": "DistinctNumbers",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayListTest",
+            "request": "launch",
+            "mainClass": "ArrayListTest",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestCasting",
+            "request": "launch",
+            "mainClass": "TestCasting",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch lala",
+            "request": "launch",
+            "mainClass": "lala",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestGeometry",
+            "request": "launch",
+            "mainClass": "geometry.TestGeometry",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch RegTest",
+            "request": "launch",
+            "mainClass": "RegTest",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainTest",
+            "request": "launch",
+            "mainClass": "MainTest",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayTest",
+            "request": "launch",
+            "mainClass": "ArrayTest",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch DataTest",
+            "request": "launch",
+            "mainClass": "DataTest",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch MathMethod",
+            "request": "launch",
+            "mainClass": "MathMethod",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Print2DTest",
+            "request": "launch",
+            "mainClass": "Print2DTest",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quick",
+            "request": "launch",
+            "mainClass": "Quick",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomTest",
+            "request": "launch",
+            "mainClass": "RandomTest",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch RockPaperScissors",
+            "request": "launch",
+            "mainClass": "RockPaperScissors",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringTest",
+            "request": "launch",
+            "mainClass": "StringTest",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestCircle",
+            "request": "launch",
+            "mainClass": "TestCircle",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestLoanClass",
+            "request": "launch",
+            "mainClass": "TestLoanClass",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch TicTacToe",
+            "request": "launch",
+            "mainClass": "TicTacToe",
+            "projectName": "Java_443aea1b"
+        }
+    ]
+}
