@@ -13,6 +13,138 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SortRectangles",
+            "request": "launch",
+            "mainClass": "SortRectangles",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch JaggedArray",
+            "request": "launch",
+            "mainClass": "JaggedArray",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Spiralmatrix",
+            "request": "launch",
+            "mainClass": "Spiralmatrix",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main1",
+            "request": "launch",
+            "mainClass": "Main1",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Statistic",
+            "request": "launch",
+            "mainClass": "Statistic",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Shift",
+            "request": "launch",
+            "mainClass": "Shift",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinNum",
+            "request": "launch",
+            "mainClass": "MinNum",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch AtUnit",
+            "request": "launch",
+            "mainClass": "net.mindview.atunit.AtUnit",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch AtUnitRemover",
+            "request": "launch",
+            "mainClass": "net.mindview.atunit.AtUnitRemover",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch LibTest",
+            "request": "launch",
+            "mainClass": "LibTest",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChocolateChip",
+            "request": "launch",
+            "mainClass": "ChocolateChip",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChocolateChip2",
+            "request": "launch",
+            "mainClass": "ChocolateChip2",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Points24",
+            "request": "launch",
+            "mainClass": "Points24",
+            "args": [
+                "<",
+                "/home/fengsc/Desktop/Java/作业/nums.txt",
+                ">",
+                "/home/fengsc/Desktop/Java/作业/result.txt"
+            ],
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeJudge",
+            "request": "launch",
+            "mainClass": "PrimeJudge",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch GetTriangleArea",
+            "request": "launch",
+            "mainClass": "GetTriangleArea",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch DetermineLeapYear",
+            "request": "launch",
+            "mainClass": "DetermineLeapYear",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleSum",
+            "request": "launch",
+            "mainClass": "SimpleSum",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestRandomAccessFile",
+            "request": "launch",
+            "mainClass": "TestRandomAccessFile",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
             "name": "Launch TestObjectStream",
             "request": "launch",
             "mainClass": "TestObjectStream",

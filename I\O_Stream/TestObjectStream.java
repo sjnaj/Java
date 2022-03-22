@@ -2,7 +2,7 @@
 /*
  * @Author: fengsc
  * @Date: 2022-02-28 12:41:58
- * @LastEditTime: 2022-02-28 13:41:34
+ * @LastEditTime: 2022-03-06 11:33:26
  */
 import java.io.*;
 
@@ -20,7 +20,7 @@ public class TestObjectStream {
 
             String name = input.readUTF();
             double score = input.readDouble();
-            java.util.Date date = (java.util.Date) input.readObject();
+            java.util.Date date = (java.util.Date) input.readObject(); 
             System.out.println(name + " " + score + " " + date);
 
         }

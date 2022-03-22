@@ -1,7 +1,7 @@
 <!--
  * @Author: fengsc
  * @Date: 2022-02-27 12:23:06
- * @LastEditTime: 2022-02-28 14:00:10
+ * @LastEditTime: 2022-03-07 09:33:09
 -->
 # I/O
 
@@ -447,7 +447,7 @@ ByteArrayOutputStream 类中除了有前面介绍的字节输出流中的常用�
 - intsize()：返回缓冲区中的当前字节数。
 - byte[] toByteArray()：以字节数组的形式返回输出流中的当前内容。
 
-### 文件输入流
+### 文件流
 
 FileInputStream 常用的构造方法主要有如下两种重载形式。
 
@@ -455,8 +455,6 @@ FileInputStream 常用的构造方法主要有如下两种重载形式。
 - FileInputStream(String name)：通过打开一个到实际文件的链接来创建一个 FileInputStream，该文件通过文件系统中的路径名 name 指定。
 
 注意：*FileInputStream 类重写了父类 InputStream 中的 read() 方法、skip() 方法、available() 方法和 close() 方法，不支持 mark() 方法和 reset() 方法*。
-
-### 文件输出流
 
  FileOutputStream 类的构造方法主要有如下 4 种重载形式。
 
@@ -477,6 +475,7 @@ FileInputStream 常用的构造方法主要有如下两种重载形式。
 分别继承自FileInputSteam和FileOutputStream
 
 DataInputStream 从数据流读取字节，并且将它们**转换为合适的基本类型或字符串**。DataOutputStream 将它们转换为字节并输出到流。
+
 ```java
 
 DataOutputStream output=new DataOutputStream(new FileOutputStream("temp.dat"));
@@ -508,10 +507,35 @@ ObjectOutputStream input=new ObjectIntputStream(new FileInputStream("object.dat"
 java.util.Date date=(java.util.Date)input.readObject();//必须使用类型转换
 //需要声明异常ClassNotFoundExcepion，它是必检异常，因为恢复类时会加载对象所在的类
 
-```xc
+```
 
+### 序列化
 
+可以写入到输出流的对象称为可序列化的，可序列化的对象都是java.io.Serializable接口的实例，所有基本类型值和一些常用的数据类型都实现了可序列化接口
 
+当存储一个可序列化对象时，会对该对象的的类进行编码。编码包括类名，类的签名，对象实例变量的值以及该对象引用的任何其它对象的闭包，但是不存储对象静态变量的值，因为其存储在全局区，在对象实例化前就已经生成，属于类的状态
 
+transient关键字使java虚拟机将对象写入对象流时忽略某些数据域，使整体可以被序列化。
+
+```java
+public class C implements java.io.Serializable{
+    private int v1;
+    private static double v2;
+    private transient A v3=new A()
+}
+//*只有v1会被传输，v2是静态的，v3被忽略，不忽略可能由于A未实现可序列化接口导致报错
+```
+
+序列化用强制类型转换即可(针对对象)
+
+### 随机访问文件
+
+到现在为止使用的流都是只读的或只写的。这些流称为顺序流。使用顺序流打开的文件称为顺序访问文件。顺序访问文件的内容不能更新。
+
+RandomAccessFile类允许在文件的任意位置进行读写，使用这个类打开的文件称为随机访问文件,实现了DataInput和DataOutput接口
+
+常用的有r,rw两种模式，后者会创建不存在的文件，**要想实现追加，需要使用raf.seek(raf.length())将指针移到文件末，要想实现重写，需要先使用raf.setLength(0)，来清空文件**。
+
+raf.getFilePointer()获取指针位置，初始在文件开头
 
 

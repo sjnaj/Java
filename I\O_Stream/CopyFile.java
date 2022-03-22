@@ -2,7 +2,7 @@
 /*
  * @Author: fengsc
  * @Date: 2022-02-28 09:24:53
- * @LastEditTime: 2022-02-28 12:28:25
+ * @LastEditTime: 2022-03-02 11:44:29
  */
 import java.io.*;
 
@@ -36,11 +36,11 @@ public class CopyFile {
             int r;
             int numberOfBytes = 0;
             while ((r = input.read()) != -1) {
-                output.write((byte) r);//*r转回byte
+                output.write((byte) r);// *r转回byte
                 numberOfBytes++;
             }
 
-            System.out.println(numberOfBytes+" bytes copied");
+            System.out.println(numberOfBytes + " bytes copied");
 
         }
 

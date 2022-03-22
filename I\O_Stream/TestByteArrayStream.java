@@ -1,7 +1,7 @@
 /*
  * @Author: fengsc
  * @Date: 2022-02-27 23:32:10
- * @LastEditTime: 2022-02-27 23:46:14
+ * @LastEditTime: 2022-03-06 11:35:27
  */
 import java.io.*;
 public class TestByteArrayStream {
@@ -16,7 +16,7 @@ public class TestByteArrayStream {
         }
 
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
-            baos.write(b, 0, 6); // 将字节数组b中的前4个字节元素写到输出流中
+            baos.write(b, 0, 6); // 将字节数组中的元素写到输出流中
             System.out.println("数组中一共包含：" + baos.size() + "字节"); // 输出缓冲区中的字节数
             byte[] newByteArray = baos.toByteArray(); // 将输出流中的当前内容转换成字节数组
             System.out.println(java.util.Arrays.toString(newByteArray)); // 输出数组中的内容

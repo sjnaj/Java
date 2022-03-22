@@ -2,7 +2,7 @@
 /*
  * @Author: fengsc
  * @Date: 2022-02-22 23:36:37
- * @LastEditTime: 2022-02-22 23:45:49
+ * @LastEditTime: 2022-03-15 12:52:25
  */
 import java.math.BigInteger;//需要导入
 import java.util.Scanner;
