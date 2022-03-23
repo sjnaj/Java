@@ -13,6 +13,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BitOperator",
+            "request": "launch",
+            "mainClass": "BitOperator",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestClone",
+            "request": "launch",
+            "mainClass": "TestClone",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
             "name": "Launch SortRectangles",
             "request": "launch",
             "mainClass": "SortRectangles",

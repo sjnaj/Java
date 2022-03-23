@@ -2,7 +2,7 @@
 /*
  * @Author: fengsc
  * @Date: 2022-02-25 20:56:00
- * @LastEditTime: 2022-03-01 02:05:35
+ * @LastEditTime: 2022-03-22 10:13:47
  */
 package geometry;
 
@@ -45,6 +45,9 @@ public class GeometricObject {
 
     public Date getDateCreated() {
         return dateCreated;
+    }
+    public void setDateCreated(Date dateCreated){
+        this.dateCreated = dateCreated;
     }
 
     public String toString() {

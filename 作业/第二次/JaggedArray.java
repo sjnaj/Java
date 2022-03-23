@@ -1,11 +1,11 @@
 
-/*
+/**
  * @Author: fengsc
  * @Date: 2022-03-21 21:22:40
- * @LastEditTime: 2022-03-21 21:53:48
+ * @LastEditTime: 2022-03-23 22:53:30
+ * @Description: Do not edit
  */
-import java.util.Collections;
-import java.util.Comparator;
+
 import java.util.Scanner;
 import java.util.Arrays;
 
@@ -31,3 +31,27 @@ public class JaggedArray {
     }
 
 }
+// int[] aver = new int[n];
+// int index;
+// int min;
+// for (int i = 0,j; i < n; i++) {
+// for (j = 0; j < array[i].length; j++)
+// aver[i] += array[i][j];
+// aver[i] /= j;
+// }
+// for (int i = 0; i < n; i++) {
+// index = i;
+// min = aver[i];
+// for (int j = i + 1; j < n; j++) {
+// if (min > aver[j]) {
+// min = aver[j];
+// index = j;
+// }
+// int[] temp = array[index].clone();
+// int t = aver[index];
+// array[index] = array[i];
+// aver[index] = aver[i];
+// array[i] = temp;
+// aver[i] = t;
+// }
+// }

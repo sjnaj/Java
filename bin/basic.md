@@ -1,7 +1,7 @@
 <!--
  * @Author: fengsc
  * @Date: 2022-03-21 23:44:04
- * @LastEditTime: 2022-03-22 09:32:38
+ * @LastEditTime: 2022-03-22 14:19:04
 -->
 抽象类和普通类的主要有三点区别：
 
@@ -107,7 +107,32 @@ getclass： 获取运行时期对象的类。
     }
     @Override
     public int hashCode() {
-        return  (int)(Double.doubleToLongBits(getHeight())+31*Double.doubleToLongBits(getWidth())+31*getDateCreated().getTime());
-    }  
+        return  (int)(Double.doubleToLongBits(getHeight())+31*Double.doubleToLongBits(getWidth()));//不能添加date，会导致同一对象的hashcode发生变化
+    }    
 
+```
+
+Object类中定义clone的方法头是：protected native Object clone() throws CloneNotSupportException;
+
+native表明这个方法不是用java写的，是JVM针对本地平台实现的，不能定义在接口中.
+
+protected 是因为不是每个对象都可以被克隆，Java的设计者强制要实现的子类重写该方法
+
+```java
+@Override
+    public Object clone() {
+        try {
+            return super.clone();// 调用父类克隆(浅拷贝)，会沿着调用链到达Object
+        } catch (CloneNotSupportedException e) {//也可以选择抛出
+            return null;
+        }
+    }
+
+    public CloneableRectangle deepClone() {//自定义深拷贝，也可重写原浅拷贝
+        CloneableRectangle clone = (CloneableRectangle) clone();  //直接调用定义的浅拷贝 ，免去异常检测     
+        if(clone != null){
+            clone.setDateCreated((java.util.Date)getDateCreated().clone());
+        }
+        return clone;
+    }
 ```

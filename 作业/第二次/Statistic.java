@@ -1,10 +1,15 @@
+/**
+ * @Author: fengsc
+ * @Date: 2022-03-21 19:36:42
+ * @LastEditTime: 2022-03-23 11:00:26
+ * @Description: Do not edit
+ */
 
 /*
  * @Author: fengsc
  * @Date: 2022-03-21 19:36:42
  * @LastEditTime: 2022-03-21 22:32:33
  */
-import java.util.Scanner;
 import java.io.*;
 
 public class Statistic {

@@ -26,7 +26,8 @@
         "I\\O_Stream",
         "ExceptionHanding",
         "Basic/src",
-        "AbstractClassesAndInterfaces"
+        "AbstractClassesAndInterfaces",
+        "JavaDocTest"
     ],
     "java.project.outputPath": "bin",
 }

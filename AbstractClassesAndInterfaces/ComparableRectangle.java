@@ -1,9 +1,8 @@
 /*
  * @Author: fengsc
  * @Date: 2022-03-21 23:49:04
- * @LastEditTime: 2022-03-22 09:26:51
+ * @LastEditTime: 2022-03-22 10:08:41
  */
-import java.util.Arrays;
 public class ComparableRectangle extends geometry.Rectangle implements Comparable<ComparableRectangle> {
     public ComparableRectangle(double width, double height) {
         super(width, height);
@@ -27,7 +26,7 @@ public class ComparableRectangle extends geometry.Rectangle implements Comparabl
     }
     @Override
     public int hashCode() {
-        return  (int)(Double.doubleToLongBits(getHeight())+31*Double.doubleToLongBits(getWidth())+31*getDateCreated().getTime());
+        return  (int)(Double.doubleToLongBits(getHeight())+31*Double.doubleToLongBits(getWidth()));//不能添加date，会导致同一对象的hashcode发生变化
     }    
     
     
