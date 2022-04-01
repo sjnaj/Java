@@ -13,6 +13,300 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch GreenHouseController",
+            "request": "launch",
+            "mainClass": "controller.GreenHouseController",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch CallBacks",
+            "request": "launch",
+            "mainClass": "innerclasses.CallBacks",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch AnonymousConstructor",
+            "request": "launch",
+            "mainClass": "innerclasses.AnonymousConstructor",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Parcel4",
+            "request": "launch",
+            "mainClass": "innerclasses.Parcel4",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Parcel3",
+            "request": "launch",
+            "mainClass": "innerclasses.Parcel3",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Parcel2",
+            "request": "launch",
+            "mainClass": "innerclasses.Parcel2",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestParcel",
+            "request": "launch",
+            "mainClass": "innerclasses.TestParcel",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch DotNew",
+            "request": "launch",
+            "mainClass": "innerclasses.DotNew",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch DotThis",
+            "request": "launch",
+            "mainClass": "innerclasses.DotThis",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomStrings",
+            "request": "launch",
+            "mainClass": "scanner.RandomStrings",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Games",
+            "request": "launch",
+            "mainClass": "factories.Games",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Adventure",
+            "request": "launch",
+            "mainClass": "adventure.Adventure",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch FilterProcessor",
+            "request": "launch",
+            "mainClass": "filters.FilterProcessor",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringProcessor",
+            "request": "launch",
+            "mainClass": "applicator.StringProcessor",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Applicator",
+            "request": "launch",
+            "mainClass": "applicator.Applicator",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Music",
+            "request": "launch",
+            "mainClass": "music1.Music",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Machines",
+            "request": "launch",
+            "mainClass": "operations.Machines",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Implementation",
+            "request": "launch",
+            "mainClass": "interfaces.Implementation",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch CovariantReturn",
+            "request": "launch",
+            "mainClass": "CovariantReturn",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Polyconstructor",
+            "request": "launch",
+            "mainClass": "Polyconstructor",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Frog",
+            "request": "launch",
+            "mainClass": "music.animal.Frog",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Frog",
+            "request": "launch",
+            "mainClass": "Frog",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReferenceCounting",
+            "request": "launch",
+            "mainClass": "ReferenceCounting",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch StaticPloymorphsim",
+            "request": "launch",
+            "mainClass": "StaticPloymorphsim",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrivateOverride",
+            "request": "launch",
+            "mainClass": "PrivateOverride",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Music",
+            "request": "launch",
+            "mainClass": "music.Music",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fraction",
+            "request": "launch",
+            "mainClass": "Fraction",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Block",
+            "request": "launch",
+            "mainClass": "Block",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpaceShip",
+            "request": "launch",
+            "mainClass": "SpaceShip",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpaceShipDelegation",
+            "request": "launch",
+            "mainClass": "SpaceShipDelegation",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch EnumTest",
+            "request": "launch",
+            "mainClass": "EnumTest",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch OverloadingArgs2",
+            "request": "launch",
+            "mainClass": "OverloadingArgs2",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch OverloadingArgs",
+            "request": "launch",
+            "mainClass": "OverloadingArgs",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch AutoBoxingVarargs",
+            "request": "launch",
+            "mainClass": "AutoBoxingVarargs",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch VarArgType",
+            "request": "launch",
+            "mainClass": "VarArgType",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch NewVarArgs",
+            "request": "launch",
+            "mainClass": "NewVarArgs",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch VarArgs",
+            "request": "launch",
+            "mainClass": "VarArgs",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch OtherMain",
+            "request": "launch",
+            "mainClass": "OtherMain",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mugs",
+            "request": "launch",
+            "mainClass": "Mugs",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExplicitStatic",
+            "request": "launch",
+            "mainClass": "ExplicitStatic",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch LabelTest",
+            "request": "launch",
+            "mainClass": "LabelTest",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintBit",
+            "request": "launch",
+            "mainClass": "PrintBit",
+            "projectName": "Java_443aea1b"
+        },
+        {
+            "type": "java",
             "name": "Launch BitOperator",
             "request": "launch",
             "mainClass": "BitOperator",

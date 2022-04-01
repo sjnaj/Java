@@ -16,7 +16,9 @@
 // *5）在局部内部类中可以访问外部类的所有成员。
 
 // *6）在局部内部类中只可以访问当前方法中 final 类型的参数与变量。如果方法中的成员与外部类中的成员同名，
-// 则可以使用 <OuterClassName>.this.<MemberName> 的形式访问外部类中的成员。 
+// 则可以使用 <OuterClassName>.this.<MemberName> 的形式访问外部类中的成员。
+
+package innerclasses;
 public class LocalInnerClass {
 
     int a = 0;

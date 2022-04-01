@@ -14,15 +14,15 @@ public class CloneableRectangle extends ComparableRectangle implements Cloneable
     public Object clone() {
         try {
             return super.clone();// 调用父类克隆(浅拷贝)，会沿着调用链到达Object
-        } catch (CloneNotSupportedException e) {//也可以选择抛出
+        } catch (CloneNotSupportedException e) {// 也可以选择抛出
             return null;
         }
     }
 
-    public CloneableRectangle deepClone() {//自定义深拷贝，也可重写原浅拷贝
-        CloneableRectangle clone = (CloneableRectangle) clone();  //直接调用定义的浅拷贝 ，免去异常检测     
-        if(clone != null){
-            clone.setDateCreated((java.util.Date)getDateCreated().clone());
+    public CloneableRectangle deepClone() {// 自定义深拷贝，也可重写原浅拷贝
+        CloneableRectangle clone = (CloneableRectangle) clone(); // 直接调用定义的浅拷贝 ，免去异常检测
+        if (clone != null) {
+            clone.setDateCreated((java.util.Date) getDateCreated().clone());
         }
         return clone;
     }

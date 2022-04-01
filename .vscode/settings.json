@@ -12,8 +12,11 @@
     ],
     "java.project.sourcePaths": [
         "作业/第二次",
+        "作业/第三次",
         "作业/第一次",
-        "temp",
+        "reusing",
+        "polymorphic",
+        "interfaces",
         "Object/warpClass.java/src",
         "Object/triangle2D/src",
         "Object/myStringBuilder/src",
@@ -21,13 +24,15 @@
         "Object/innerClass/src",
         "Object/course/src",
         "Object/casting/src",
+        "Object/Initialization",
         "Object/GeometricObject/src",
         "Object/ArrayListTest/src",
+        "JavaDocTest",
         "I\\O_Stream",
         "ExceptionHanding",
         "Basic/src",
         "AbstractClassesAndInterfaces",
-        "JavaDocTest"
+        "innerClass"
     ],
     "java.project.outputPath": "bin",
 }

@@ -10,7 +10,7 @@
 // *3）在外部类中不能直接访问内部类的成员，而必须通过内部类的实例去访问。如果类 A 包含内部类 B，类 B 中包含内部类 C，则在类 A 中不能直接访问类 C，而应该通过类 B 的实例去访问类 C。
 // *4）外部类实例与内部类实例是一对多的关系，也就是说一个内部类实例只对应一个外部类实例，而一个外部类实例则可以对应多个内部类实例。
 // *5）在实例内部类中不能定义 static 成员，除非同时使用 final 和 static 修饰。 
-
+package innerclasses;
 public class InstanceInnerClass {
     public int a = 100;
     static int b = 100;
