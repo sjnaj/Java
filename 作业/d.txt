@@ -1,0 +1,17 @@
+100
+false
+72.5
+helloworld
+100
+false
+72.5
+helloworld100
+false
+72.5
+helloworld100
+false
+72.5
+helloworld100
+false
+72.5
+helloworld
