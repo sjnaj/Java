@@ -2,6 +2,7 @@ import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.Scanner;
 import java.io.*;
+
 class Person implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -114,13 +115,14 @@ class Book implements Serializable {
 
 
 public class SerializableObjRead {
-    public static void main(String[] args) throws IOException,ClassNotFoundException {
-        try(Scanner scanner = new Scanner(System.in);ObjectInputStream in= new ObjectInputStream(new FileInputStream("dict.dic"));){
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
+        try (Scanner scanner = new Scanner(System.in);
+                ObjectInputStream in = new ObjectInputStream(new FileInputStream("dict.dic"));) {
             int n = scanner.nextInt() - 1;
-            while(n--!= 0){
-               in.readObject();
+            while (n-- != 0) {
+                in.readObject();
             }
-            System.out.println((Book)in.readObject());
+            System.out.println((Book) in.readObject());
         }
     }
 

@@ -1,10 +1,11 @@
 {
     "java.project.sourcePaths": [
         "第四次",
+        "第六次",
         "第五次",
         "第三次",
-        "第六次",
-        "第七次"
+        "第七次",
+        "第八次"
     ],
     "files.associations": {
         "*.py": "python",
